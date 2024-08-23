@@ -1,0 +1,112 @@
+.contact {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact .contactpart1 {
+  width: 50%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.contact .contactpart1 img {
+  width: 85%;
+}
+.contact .contactpart1 .content {
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.contact .contactpart1 .content .part {
+  width: 200px;
+  padding: 20px 0;
+  height: 160px;
+  background-color: #f39a36;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact .contactpart1 .content .part svg {
+  width: 28px;
+  fill: white;
+}
+.contact .contactpart1 .content .part h3 {
+  color: white;
+  line-height: 0px;
+}
+.contact .contactpart1 .content .part p {
+  color: white;
+  line-height: 0px;
+}
+.contact .contactpart2 {
+  width: 49%;
+  padding-left: 1%;
+  height: 510px;
+  padding-top: 90px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  flex-direction: column;
+}
+.contact .contactpart2 h2 {
+  color: #f39a36;
+}
+.contact .contactpart2 h1 {
+  font-size: 44px;
+}
+.contact .contactpart2 form {
+  width: 95%;
+  height: 200px;
+  margin-top: 20px;
+}
+.contact .contactpart2 form .inputs {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.contact .contactpart2 form .inputs input {
+  width: 47%;
+  height: 69px;
+  background-color: #f39b3622;
+  border: none;
+  border-radius: 5px;
+}
+.contact .contactpart2 form .inputs textarea {
+  width: 94.5%;
+  height: 120px;
+  padding-left: 2.5%;
+  background-color: #f39b3622;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+.contact .contactpart2 form button {
+  width: 200px;
+  margin-top: 40px;
+  margin-left: 15px;
+  height: 48px;
+  background-color: #f39a36;
+  border-radius: 50px;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  border: 2px solid #f39a36;
+  transition: 1s all ease;
+}
+.contact .contactpart2 form button:hover {
+  background-color: #f39b3600;
+  color: #f39a36;
+}
